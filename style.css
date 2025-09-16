@@ -1,0 +1,74 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: 
+  "header header" "awards bio" "edu self" "future resume" "footer footer";
+  gap: 10px;
+  background-image: url('bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.header {
+  grid-area: header;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #263238;
+  color: #F7F7F7;
+}
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.awards {
+  grid-area: awards;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #90A4AE;
+}
+.bio {
+  grid-area: bio;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #78909C;
+}
+.edu {
+  grid-area: edu;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #607D8B;
+}
+.self {
+  grid-area: self;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #90A4AE;
+}
+.future { 
+  grid-area: future;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #78909C;
+}
+.resume {
+  grid-area: resume;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #607D8B;
+}
+.footer{
+  grid-area: footer;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #263238;
+  color: #F7F7F7;
+}
